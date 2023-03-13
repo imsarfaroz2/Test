@@ -90,6 +90,9 @@ class MainViewController: UIViewController, UIBarPositioningDelegate {
     @objc func changeTheLetter6() {
         searchController.searchBar.text! += "й"
     }
+    @objc func changeTheLetter2() {
+        searchController.searchBar.text! += "у"
+    }
     
     let languageMenuListView: MenuListView = {
         let view = MenuListView()
